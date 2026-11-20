@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# DVC local storage & cache
+.dvc/cache
+dvc-storage/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+
+# Docker
+.docker/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
